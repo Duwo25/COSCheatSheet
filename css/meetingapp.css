@@ -1,0 +1,89 @@
+/*
+File .....: meetingapp.css
+
+Author ...: Wouter Dupré
+Created ..: 2016-07-15
+Modified .: 2016-08-02
+*/
+
+/* to avoid page-transition issues in Phonegap apps */
+.ui-page { 
+    -webkit-backface-visibility: hidden; 
+}
+
+img {
+    margin-right: 10px; }
+
+.timercolor-red {
+    color: red;
+}
+.timercolor-amber {
+    color: orange;
+}
+.timercolor-green {
+    color: lightgreen;
+}
+.timercolor-grey {
+    color: lightgrey;
+}
+.row-button {
+    margin-top: 0px !important; 
+    margin-bottom: 0px !important;
+}
+.button-cell {
+    padding: .0em !important;
+}
+.past-time {
+    font-weight: bold;
+/*
+    font-style: italic;
+*/
+    color: orange; 
+}
+#page-agenda tbody tr:nth-child(odd) {
+    background: DimGrey;
+}
+
+#page-agenda tbody tr td {
+    vertical-align: middle;
+}
+
+/* Hide the input field from slider widgets */
+/*
+.ui-slider-input {
+    display : none !important;
+}
+*/
+
+#page-timer #SettingGreen {
+    background: green;
+    color: white;
+}
+#page-timer #SettingAmber {
+    background: darkorange;
+    color: white;
+}
+#page-timer #SettingRed {
+    background: red;
+    color: white;
+}
+
+#page-timer-report #BarEarly {
+    background: DimGrey;
+    color: white;
+}
+
+#page-timer-report #BarGreen {
+    background: green;
+    color: white;
+}
+
+#page-timer-report #BarAmber {
+    background: Gold;
+    color: white;
+}
+
+#page-timer-report #BarRed {
+    background: red;
+    color: white;
+}
