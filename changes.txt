@@ -1,7 +1,5 @@
 History of changes
 ==================
-(1.2.7)
-
 1.2.6
 - Optionally keep device awake when agenda is active
 - Row height for the agenda can now be changed in the settings
